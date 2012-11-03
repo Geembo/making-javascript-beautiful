@@ -11,6 +11,7 @@ body{background:#f7f7f7;}
 .globe img{margin-left:39px;margin-top:58px;}
 .men h3{display:inline-block;margin:0;margin-top:20px;vertical-align:top;color:#1ea6d5;}
 .women h3{display:inline-block;margin:0;margin-top:20px;vertical-align:top;color:#ffa0a0;}
+.inline{display:inline-block;}
 ul.timeline{border-left:2px solid #c1c1c1;position:absolute;left:120px;height:700px;}ul.timeline li{background:none repeat scroll 0 0 #c1c1c1;border:2px solid #f7f7f7;border-radius:50% 50% 50% 50%;display:block;height:17px;position:relative;left:-51px;list-style:none outside none;width:17px;margin:99px 0;}ul.timeline li:hover>span{color:#526471;}
 ul.timeline li:hover{background:#526471;}
 ul.timeline li:first-child{margin-top:0;}
