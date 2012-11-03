@@ -2,6 +2,10 @@
 @import "mixins.less";
 @import "vars.less";
 
+body {
+    background: @body-background;
+}
+
 .main{
     h1 {
         .bebas(95px);
@@ -21,8 +25,8 @@ ul.timeline {
     left: 120px;
     height: 700px;
 	li {
-		background: none repeat scroll 0 0 black;
-    	border: 2px solid #FFFFFF;
+		background: none repeat scroll 0 0 @timeline-rule;
+    	border: 2px solid @body-background;
     	border-radius: 50% 50% 50% 50%;
     	display: block;
     	height: 17px;
@@ -35,7 +39,11 @@ ul.timeline {
             margin-top: 0;
         }
 		span {
+            color: @timeline-rule; 
+            font-family: "Bebas Neue";
+            font-size: 36px;
 			left: -64px;
+            top: -12px;
     		position: relative;
 		}
 	}
