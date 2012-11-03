@@ -8,7 +8,7 @@ body{background:#f7f7f7;}
 .main h3{font-family:'BebasNeueRegular',Arial,FreeSans,sans-serif;font-size:45px;font-weight:normal;}
 .main .subtitle{padding-left:40px;font-family:'Segoe UI',sans-serif;font-size:30px;font-weight:normal;margin-top:-30px;display:block;color:#154a5c;}
 .population .globe{vertical-align:top;background:#55b4d5;display:inline-block;height:200px;width:200px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;}
-.bar{display:inline-block;width:200px;height:20px;vertical-align:top;margin-top:35px;margin-left:2 0px;}
+.bar{display:inline-block;width:200px;height:20px;vertical-align:top;margin-top:35px;margin-left:20px;}
 .men .bar{background:#1ea6d5;}
 .women .bar{background:#ffa0a0;}
 .men-women{vertical-align:top;}
