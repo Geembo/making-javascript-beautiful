@@ -1,4 +1,4 @@
-## This repo is created for the needs of "Making Javascript Beautiful" hackathon at coLab Workspace in Athens
+This repo is created for the needs of "Making Javascript Beautiful" hackathon at coLab Workspace in Athens
 
 ### Here we have the collection of datasets that we built upon
 	* Population is in thousands (1.000)
