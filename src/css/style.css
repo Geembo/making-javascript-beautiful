@@ -63,6 +63,12 @@ ul.timeline li {
   width: 17px;
   margin: 99px 0;
 }
+ul.timeline li:hover > span {
+  color: #526471;
+}
+ul.timeline li:hover {
+  background: #526471;
+}
 ul.timeline li:first-child {
   margin-top: 0;
 }
