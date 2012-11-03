@@ -1,88 +1,17 @@
-/*--- Fonts ---*/
-@font-face {
-  font-family: 'BebasNeueRegular';
-  src: url('../fonts/BebasNeue-webfont.eot');
-  src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/BebasNeue-webfont.woff') format('woff'), url('../fonts/BebasNeue-webfont.ttf') format('truetype'), url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
-/*----- Mixins -----*/
-.box-sizing {
-  -moz-box-sizing: border-box;
-  /* Firefox */
-
-  -webkit-box-sizing: border-box;
-  /* Safari */
-
-  box-sizing: border-box;
-}
-.ellipsis {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.border-box {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-body {
-  background: #eeefec;
-}
-.main h1 {
-  /* Bebas mixin implemantation */
-
-  font-family: 'BebasNeueRegular', Arial, FreeSans, sans-serif;
-  font-size: 95px;
-  font-weight: normal;
-  margin: 0;
-}
-.main h3 {
-  /* Bebas mixin implemantation */
-
-  font-family: 'BebasNeueRegular', Arial, FreeSans, sans-serif;
-  font-size: 45px;
-  font-weight: normal;
-  margin: 0;
-}
-ul.timeline {
-  border-left: 2px solid #c1c1c1;
-  position: absolute;
-  left: 120px;
-  height: 700px;
-}
-ul.timeline li {
-  background: none repeat scroll 0 0 #c1c1c1;
-  border: 2px solid #eeefec;
-  border-radius: 50% 50% 50% 50%;
-  display: block;
-  height: 17px;
-  position: relative;
-  left: -51px;
-  list-style: none outside none;
-  width: 17px;
-  margin: 99px 0;
-}
-ul.timeline li:hover > span {
-  color: #526471;
-}
-ul.timeline li:hover {
-  background: #526471;
-}
-ul.timeline li:first-child {
-  margin-top: 0;
-}
-ul.timeline li span {
-  color: #c1c1c1;
-  font-family: "Bebas Neue";
-  font-size: 36px;
-  left: -64px;
-  top: -12px;
-  position: relative;
-}
-.main {
-  margin-left: 250px;
-}
-article {
-  display: inline-block;
-}
+@font-face{font-family:'BebasNeueRegular';src:url('../fonts/BebasNeue-webfont.eot');src:url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/BebasNeue-webfont.woff') format('woff'),url('../fonts/BebasNeue-webfont.ttf') format('truetype'),url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');font-weight:400;font-style:normal;}.box-sizing{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.border-box{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+body{background:#f7f7f7;}
+.main h1{font-family:'BebasNeueRegular',Arial,FreeSans,sans-serif;font-size:95px;font-weight:normal;margin:0;display:inline-block;}
+.main .stats{color:#154a5c;display:inline-block;vertical-align:top;padding-top:30px;margin-left:50px;}
+.main h3{font-family:'BebasNeueRegular',Arial,FreeSans,sans-serif;font-size:45px;font-weight:normal;}
+.main .subtitle{font-family:'Segoe UI',sans-serif;font-size:30px;font-weight:normal;margin-top:-30px;display:block;color:#154a5c;}
+.population .globe{background:#55b4d5;display:inline-block;height:200px;width:200px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;}
+.men h3{display:inline-block;margin:0;margin-top:20px;vertical-align:top;color:#1ea6d5;}
+.women h3{display:inline-block;margin:0;margin-top:20px;vertical-align:top;color:#ffa0a0;}
+ul.timeline{border-left:2px solid #c1c1c1;position:absolute;left:120px;height:700px;}ul.timeline li{background:none repeat scroll 0 0 #c1c1c1;border:2px solid #f7f7f7;border-radius:50% 50% 50% 50%;display:block;height:17px;position:relative;left:-51px;list-style:none outside none;width:17px;margin:99px 0;}ul.timeline li:hover>span{color:#526471;}
+ul.timeline li:hover{background:#526471;}
+ul.timeline li:first-child{margin-top:0;}
+ul.timeline li span{color:#c1c1c1;font-family:"Bebas Neue";font-size:36px;left:-64px;top:-12px;position:relative;}
+.main{margin-left:250px;}
+article{display:inline-block;}

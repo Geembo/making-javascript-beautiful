@@ -11,14 +11,54 @@ body {
         .bebas(95px);
         font-weight: normal;
         margin: 0;
+        display: inline-block;
+    }
+    .stats {
+        color: @dark-blue;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 30px;
+        margin-left: 50px;
     }
     h3 {
         .bebas(45px);
         font-weight: normal;
-        margin: 0;
+    }
+    .subtitle {
+        .segoeui(30px);
+        font-weight: normal;
+        margin-top: -30px;
+        display: block;
+        color: @dark-blue;  
     }
 }
-
+.population {
+    .globe {
+        background: #55b4d5;
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        .border-radius(50%);
+    }
+}
+.men {
+    h3 {
+        display: inline-block;
+        margin: 0;
+        margin-top: 20px;
+        vertical-align: top;
+        color: @men;
+    }
+}
+.women {
+    h3 {
+        display: inline-block;
+        margin: 0;
+        margin-top: 20px;
+        vertical-align: top;
+        color: @women;
+    }
+}
 ul.timeline {
 	border-left: 2px solid @timeline-rule;
 	position: absolute;
