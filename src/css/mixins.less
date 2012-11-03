@@ -1,0 +1,83 @@
+/*----- Mixins -----*/
+
+.rounded-corners(@radius) { /* borders rounder with certain radius */
+           -moz-border-radius: @radius;
+        -webkit-border-radius: @radius;
+                border-radius: @radius; /* future proofing */
+         -khtml-border-radius: @radius; /* for old Konqueror browsers */
+}
+.inner-shadow(@radius, @color) { /* inner shadows for boxes */
+           -moz-box-shadow: inset 0 0 @radius @color;
+    -webkit-box-shadow: inset 0 0 @radius @color;
+            box-shadow: inset 0 0 @radius @color;
+}
+.text-shadow(@x, @y, @blur, @color) {
+        text-shadow: @x @y @blur @color;
+}
+.border-radius(@radius) {
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+            border-radius: @radius;
+}
+.box-shadow(@string) { /* box shadow */
+       -moz-box-shadow: @string;
+    -webkit-box-shadow: @string;
+            box-shadow: @string;
+}
+.inner-shadow(@string) {
+    -moz-box-shadow: @string;
+    -webkit-box-shadow: @string;
+    box-shadow: @string;
+}
+.box-sizing {
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    box-sizing:border-box;
+}
+.ellipsis {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+.border-box {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+.transition(@time){
+        -webkit-transition: all @time ease-in-out;
+        -moz-transition: all @time ease-in-out;
+        -o-transition: all @time ease-in-out;
+        -ms-transition: all @time ease-in-out;
+        transition: all @time ease-in-out;
+}
+.gradient(@color: #F5F5F5, @start: #EEE, @stop: #FFF) {
+    background: @color;
+    background: -webkit-gradient(linear,
+                               left bottom,
+                               left top,
+                               color-stop(0, @start),
+                               color-stop(1, @stop));
+    background: -ms-linear-gradient(bottom,
+                                  @start,
+                                  @stop);
+    background: -moz-linear-gradient(center bottom,
+                                   @start 0%,
+                                   @stop 100%);
+}
+.helvetica(@size) {
+    font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-size: @size;
+}
+.bebas(@size) { /* Bebas mixin implemantation */
+    font-family: 'BebasNeueRegular', Arial, FreeSans, sans-serif;
+    font-size: @size;
+}
+.icomoon(@size: 1em) {
+    font-family: 'icomoon';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    font-size: @size;
+    -webkit-font-smoothing: antialiased;
+}
